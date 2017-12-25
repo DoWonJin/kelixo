@@ -4,7 +4,7 @@ body{
 .top{
   background:rgb(252, 6, 90) ;
   margin:0 0;
-  height: 60px;
+  height: 50px;
   border: 1px;
 }
 .get{
@@ -31,25 +31,25 @@ p{
 
 .main{
   margin:0 auto;
-  height: 700px;
+  height: 650px;
   width:80%;
-  border:1px solid black;
+
 }
 .pic{
   float: left;
   position: relative;
-  top:15%;
-  left: 25%;
+  top:14%;
+  left: 27%;
   width: 300px;
   height: 500px;
   background-image: url("instar_mobile.jpg");
   border:1px solid black;
 }
 .enter{
-  border:1px solid black;
+
   position: relative;
-  top:10%;
-  left: 27%;
+  top:7%;
+  left: 28%;
   float: left;
   width: 300px;
   height: 600px;
@@ -82,7 +82,8 @@ input{
 form>h2{
   font-weight: 600;
   line-height: 20px;
-  font-size: 11px;
+  color: rgb(165, 177, 177);
+  font-size: 14px;
   margin: 0 40px 10px;
   text-align: center;
 }
@@ -94,11 +95,12 @@ form > span{
 }
 .sign_up{
   text-align: center;
+
 }
 .sign_up>div{
   margin:0 auto;
   width: 90%;
-  height: 400px;
+  height: 450px;
   border: 1px solid black;
 }
 .log_in{
@@ -128,10 +130,11 @@ img{
 }
 
 .below{
-  margin: 0 auto;
-  width:80%;
-  height: 30px;
+  margin: 0 22%;
 
+  height: 30px;
+  text-align: center;
+  font-size: small;
 }
 footer ul li{
   float:left;
