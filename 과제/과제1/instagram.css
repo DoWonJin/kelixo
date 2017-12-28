@@ -1,6 +1,9 @@
 header{
   height: 68px;
-
+  position:fixed;
+  top:0;
+  width: 100%;
+  background: white;
   border-bottom: 1px solid black;
 }
 .out{
@@ -31,21 +34,29 @@ header{
   width: 155.9px;
 }
 .personal div{
-  width: 24px;
-  height: 24px;
-  display: inline-block;
+
 }
+
 .direc{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
   background: url("insta_pic.png");
-  background-position: 69% 93%;
+  background-position: 69% 94%;
   margin-left: 20px;
 }
 .heart_grp{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
   background: url("insta_pic.png");
   background-position: 12.7% 93%;
   margin-left: 20px;
 }
 .account{
+  width: 24px;
+  height: 25px;
+  display: inline-block;
   background: url("insta_pic.png");
   background-position: 94% 21%;
   margin-left: 20px;
@@ -53,10 +64,10 @@ header{
 
 
 article{
-  margin: 57px 0 0 20%;
+  margin: 120px 0 0 20%;
   width: 39%;
-  height: 3000px;
-  border: 1px solid black;
+
+
   display: inline-block;
 }
 .info{
@@ -84,21 +95,43 @@ article{
   width: 100%;
   height: 30px;
 }
-.heart{
+.heart_1{
   margin-left: 10px;
   display: inline-block;
-  width: 30.5px;
-  height: 40px;
+  width: 28px;
+  height: 23px;
   background: url("insta_pic.png");
-  background-position: 37.3% 97%;
+  background-position: 37.2% 93%;
+}
+.heart_2{
+  margin-left: 10px;
+  display: inline-block;
+  width: 28px;
+  height: 23px;
+  background: url("insta_pic.png");
+  background-position: 25% 93%;
+}
+.lx{
+  padding-left: 2px;
+  margin-top: 0;
+}
+li{
+  list-style: none;
+
+}
+.lx a:last-child{
+  margin-left: 6px;
+}
+a{
+  text-decoration: none;
 }
 .talk{
   margin-left: 10px;
   display: inline-block;
-  width: 30.5px;
-  height: 40px;
+  width: 24px;
+  height: 23px;
   background: url("insta_pic.png");
-  background-position: 0% 99%;
+  background-position: 0% 100%;
 }
 .save{
   margin-right: 30px;
@@ -108,10 +141,25 @@ article{
   background: url("insta_pic.png");
   background-position: 75% 97%;
 }
+.save_2{
+  margin-right: 30px;
+  float: right;
+  width: 24px;
+  height: 30px;
+  background: url("insta_pic.png");
+  background-position: 6% 94%;
+}
+.comment{
+  float: left;
+}
+.comment button{
+  float: right;
+  width: 50px;
+}
 .navi{
 
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 120px;
   padding:10px;
   width: 320px;
   height: 250px;
@@ -128,6 +176,11 @@ article{
 .person_navi{
   display: inline-block;
 }
+article > div{
+  margin-bottom: 60px;
+  border: 1px solid black;
+  overflow: hidden;
+}
 .contents{
   margin-bottom: 60px;
 }
@@ -138,14 +191,19 @@ article{
 footer ul li{
   display: inline-block;
   font-size: small;
+
+  padding-right: 2px;
 }
 footer ul{
   padding-left: 0;
 }
 .download{
-  
+  position: fixed;
+  width: 100%;
+  background: white;
   border-top: 3px solid rgb(241, 23, 121);
   height: 70px;
+  bottom: 0;
 }
 .tc{
   margin: 0 15% 0;
@@ -165,12 +223,14 @@ footer ul{
 }
 .logo{
   position: relative;
-  right: 0px;
+  float: right;
+  padding-top: 23px;
 }
 .logo div{
   width: 120px;
   height: 30px;
   border: 1px solid black;
+  margin-left: 6px;
 }
 .micro{
     background: url("insta_pic.png");
