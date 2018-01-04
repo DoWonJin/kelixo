@@ -19,7 +19,7 @@ header{
   overflow:visible;
   height: 100%;
   width: 200px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 0 675px ;
 }
 .search{
@@ -41,7 +41,7 @@ header{
   width: 24px;
   height: 25px;
   display: inline-block;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 69% 94%;
   margin-left: 20px;
 }
@@ -49,7 +49,7 @@ header{
   width: 24px;
   height: 25px;
   display: inline-block;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 12.7% 93%;
   margin-left: 20px;
 }
@@ -57,14 +57,14 @@ header{
   width: 24px;
   height: 25px;
   display: inline-block;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 94% 21%;
   margin-left: 20px;
 }
 
 
 article{
-  margin: 120px 0 0 20%;
+  margin: 120px 0 0 17%;
   width: 39%;
 
 
@@ -72,7 +72,7 @@ article{
 }
 .info{
   border: 0 solid black;
-  height: 1%;
+  height: 5%;
   padding: 2%;
 }
 .photo_small{
@@ -100,7 +100,7 @@ article{
   display: inline-block;
   width: 28px;
   height: 23px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 37.2% 93%;
 }
 .heart_2{
@@ -108,7 +108,7 @@ article{
   display: inline-block;
   width: 28px;
   height: 23px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 25% 93%;
 }
 .lx{
@@ -130,7 +130,7 @@ a{
   display: inline-block;
   width: 24px;
   height: 23px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 0% 100%;
 }
 .save{
@@ -138,7 +138,7 @@ a{
   float: right;
   width: 24px;
   height: 40px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 75% 97%;
 }
 .save_2{
@@ -146,7 +146,7 @@ a{
   float: right;
   width: 24px;
   height: 30px;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 6% 94%;
 }
 .comment{
@@ -192,7 +192,7 @@ footer ul li{
   display: inline-block;
   font-size: small;
 
-  padding-right: 2px;
+  padding-right: 6px;
 }
 footer ul{
   padding-left: 0;
@@ -217,8 +217,7 @@ footer ul{
 .pic2{
   width: 40px;
   height: 40px;
-  border: 1px black solid;
-  background: url("insta_pic.png");
+  background: url("img/insta_pic.png");
   background-position: 83.1% 68.5%;
 }
 .logo{
@@ -233,14 +232,14 @@ footer ul{
   margin-left: 6px;
 }
 .micro{
-    background: url("insta_pic.png");
+    background: url("img/insta_pic.png");
     background-position: 81.3% 24.5%;
 }
 .google{
-    background: url("insta_pic.png");
+    background: url("img/insta_pic.png");
     background-position: 83.3% 1.5%;
 }
 .apple{
-    background: url("insta_pic.png");
+    background: url("img/insta_pic.png");
     background-position: 83.3% 12.8%;
 }
