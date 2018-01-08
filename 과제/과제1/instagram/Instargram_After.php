@@ -6,7 +6,9 @@ $dbh = new PDO('mysql:host=localhost:3307;dbname=instagram', 'root', 'eh1105', a
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="instagram.css">
+  <title>INSTAGRAM</title>
 </head>
 <body>
 
@@ -32,8 +34,8 @@ $dbh = new PDO('mysql:host=localhost:3307;dbname=instagram', 'root', 'eh1105', a
   </header>
 
   <article>
-      <?php
-      for($num=0;$num<count($data);$num++){     ?>
+    <?php
+      for($num=0;$num<3;$num++){  //3말고 행의 최대값을 넣어서 작동하도록 수정하자.   ?>
         <div class="news_<?php echo $num ?>">
           <section class="cotents">
             <div class="info">
@@ -41,9 +43,7 @@ $dbh = new PDO('mysql:host=localhost:3307;dbname=instagram', 'root', 'eh1105', a
                 <a href="#" style="width: 30px;height:30px;">
                   <img src=
                   <?php
-                    //$sql="SELECT id,photosmall FROM USER WHERE id=".($num+1);
-
-                    $sql="SELECT upload.id,upload.photoupload,user.name,user.location, user.photosmall FROM upload LEFT JOIN user ON upload.name=user.id WHERE upload.id=".($num+1);
+                    $sql="SELECT posts.id,posts.photoupload,user.name,user.location, user.photosmall FROM posts LEFT JOIN user ON posts.user_id=user.id WHERE posts.id=".($num+1);
                     $stmt = $dbh->prepare($sql);
                     $stmt->execute();
                     $row = $stmt->fetch(PDO::FETCH_ASSOC);
